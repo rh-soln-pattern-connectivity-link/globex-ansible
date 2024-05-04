@@ -1,0 +1,4 @@
+[all:vars]
+
+ocp4_workload_cloud_architecture_workshop_mobile_gateway_url=<mobile gateway managed url>
+
