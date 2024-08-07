@@ -36,8 +36,7 @@ spec:
           mobileGatewayService: 
             url: "{{ ocp4_workload_cloud_architecture_workshop_mobile_gateway_url }}"
           sso:
-            # url: https://sso.{{ r_openshift_subdomain }}/realms/globex-{{ __user }}
-            url: https://sso.apps.cl.cl2.sandbox374.opentlc.com/realms/globex-user1
+            url: https://sso.{{ r_openshift_subdomain }}/realms/globex-{{ __user }}
             logoutUri: https://globex-mobile-globex-apim-{{ __user }}.{{ r_openshift_subdomain }}
             client: globex-mobile
           image:
